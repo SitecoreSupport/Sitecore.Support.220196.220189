@@ -42,28 +42,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ChilkatDotNet46">
-      <HintPath>..\packages\SC.ChilkatDotNet46.8.2.2\lib\ChilkatDotNet46.dll</HintPath>
+    <Reference Include="ChilkatDotNet45, Version=9.5.0.58, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=AMD64">
+      <HintPath>..\packages\EXM.ChilkatDotNet45.3.4.1\lib\ChilkatDotNet45.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
       <HintPath>..\packages\SC.Microsoft.Extensions.DependencyInjection.Abstractions.8.2.2\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.EDS.Core">
-      <HintPath>..\packages\SC.Sitecore.EDS.Core.8.2.2\lib\Sitecore.EDS.Core.dll</HintPath>
+    <Reference Include="Sitecore.EDS.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.EDS.Core.3.4.1\lib\Sitecore.EDS.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.EDS.Providers.CustomSmtp">
-      <HintPath>..\packages\SC.Sitecore.EDS.Providers.CustomSmtp.8.2.2\lib\Sitecore.EDS.Providers.CustomSmtp.dll</HintPath>
+    <Reference Include="Sitecore.EDS.Providers.CustomSmtp, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.EDS.Providers.CustomSmtp.3.4.1\lib\Sitecore.EDS.Providers.CustomSmtp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.EmailCampaign">
-      <HintPath>..\packages\SC.Sitecore.EmailCampaign.8.2.2\lib\Sitecore.EmailCampaign.dll</HintPath>
+    <Reference Include="Sitecore.EmailCampaign, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.EmailCampaign.3.4.1\lib\Sitecore.EmailCampaign.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ExM.Framework">
-      <HintPath>..\packages\SC.Sitecore.ExM.Framework.8.2.2\lib\Sitecore.ExM.Framework.dll</HintPath>
+    <Reference Include="Sitecore.ExM.Framework, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EXM.Sitecore.ExM.Framework.3.4.1\lib\Sitecore.ExM.Framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
